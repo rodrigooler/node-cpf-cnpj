@@ -1,0 +1,29 @@
+{
+  "name": "node-cpf-cnpj",
+  "version": "1.0.0",
+  "description": "Module Validate, Formate and Generate CPF and CNPJ Brazil",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodrigoOler/node-cpf-cnpj.git"
+  },
+  "keywords": [
+    "cpf",
+    "cnpj",
+    "generate-cpf",
+    "generate-cnpj",
+    "validate-cpf",
+    "validate-cnpj",
+    "validate",
+    "format"
+  ],
+  "author": "Rodrigo Oler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RodrigoOler/node-cpf-cnpj/issues"
+  },
+  "homepage": "https://github.com/RodrigoOler/node-cpf-cnpj#readme"
+}
