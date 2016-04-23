@@ -27,3 +27,5 @@ const cpf = require('./lib/cpf');
 
 console.log(cpf.format(42012644830));
 console.log(cpf.isValid("420.126.448-30"));
+console.log(cpf.generate());
+console.log(cpf.strip("420.126.448-30"));
