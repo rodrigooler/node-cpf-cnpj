@@ -1,6 +1,6 @@
 {
   "name": "node-cpf-cnpj",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Module Validate, Formate and Generate CPF and CNPJ Brazil",
   "main": "index.js",
   "scripts": {

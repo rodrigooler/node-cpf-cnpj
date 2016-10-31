@@ -1,0 +1,117 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ludwig/n/bin/node',
+1 verbose cli   '/home/ludwig/n/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@3.10.3
+3 info using node@v6.4.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/home/ludwig/Project/node-cpf-cnpj',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /home/ludwig/.npm/node-cpf-cnpj/1.0.0/package.tgz not in flight; packing
+9 verbose correctMkdir /home/ludwig/.npm correctMkdir not in flight; initializing
+10 info lifecycle node-cpf-cnpj@1.0.0~prepublish: node-cpf-cnpj@1.0.0
+11 silly lifecycle node-cpf-cnpj@1.0.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/home/ludwig/.npm/node-cpf-cnpj/1.0.0/package.tgz',
+12 verbose tar pack   '/home/ludwig/Project/node-cpf-cnpj' ]
+13 verbose tarball /home/ludwig/.npm/node-cpf-cnpj/1.0.0/package.tgz
+14 verbose folder /home/ludwig/Project/node-cpf-cnpj
+15 verbose addLocalTarball adding from inside cache /home/ludwig/.npm/node-cpf-cnpj/1.0.0/package.tgz
+16 verbose correctMkdir /home/ludwig/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd node-cpf-cnpj@1.0.0
+18 verbose afterAdd /home/ludwig/.npm/node-cpf-cnpj/1.0.0/package/package.json not in flight; writing
+19 verbose correctMkdir /home/ludwig/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /home/ludwig/.npm/node-cpf-cnpj/1.0.0/package/package.json written
+21 silly publish { name: 'node-cpf-cnpj',
+21 silly publish   version: '1.0.0',
+21 silly publish   description: 'Module Validate, Formate and Generate CPF and CNPJ Brazil',
+21 silly publish   main: 'index.js',
+21 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/RodrigoOler/node-cpf-cnpj.git' },
+21 silly publish   keywords:
+21 silly publish    [ 'cpf',
+21 silly publish      'cnpj',
+21 silly publish      'generate-cpf',
+21 silly publish      'generate-cnpj',
+21 silly publish      'validate-cpf',
+21 silly publish      'validate-cnpj',
+21 silly publish      'validate',
+21 silly publish      'format' ],
+21 silly publish   author: { name: 'Rodrigo Oler' },
+21 silly publish   license: 'MIT',
+21 silly publish   bugs: { url: 'https://github.com/RodrigoOler/node-cpf-cnpj/issues' },
+21 silly publish   homepage: 'https://github.com/RodrigoOler/node-cpf-cnpj#readme',
+21 silly publish   readme: '# node-cpf-cnpj\nModule CPF-CNPJ Brazil\n\n# Module in construction\n\n## Install Global\n```shell\nnpm i -g node-cpf-cnpj\n```\n\n## Install Project\n```shell\nnpm i --save node-cpf-cnpj\n```\n\n```js\n\n"use strict";\n\nconst cpf = require(\'node-cpf-cnpj\');\n\n// Perform validation and returns true if it is valid\n// Example return true\nconsole.log(cpf.isValid(\'146.278.545-01\'));\n\n// Remove the special characters of the CPF mask\n// Example return 14627854501\nconsole.log(cpf.strip(\'146.278.545-01\'));\n\n// Effects the generation of a valid CPF unmasked formatting\n// Example return 68313530294\nconsole.log(cpf.generate(false));\n\n// Effects the generation of a valid CPF with mask formatting\n// Example return 683.135.302-94\nconsole.log(cpf.generate(true));\n\n// Performs the CPF mask generation\n// Example return 146.278.545-01\nconsole.log(cpf.format(\'14627854501\'));\n\n```\n\n## Author\nRodrigo Oler\n\n## Github\nhttps://github.com/RodrigoOler\n\n## NPM\nhttps://www.npmjs.com/package/node-cpf-cnpj\n\n\nThe MIT License (MIT)\n\nCopyright (c) 2016 Rodrigo Oler\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the "Software"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: '6333cd8eb4931f205f7188f5651090fabbf4d371',
+21 silly publish   _id: 'node-cpf-cnpj@1.0.0',
+21 silly publish   _shasum: 'b6d169ea39a2bdccdc18ba6c24e2debe72b52f3d',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name node-cpf-cnpj
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'node-cpf-cnpj',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'node-cpf-cnpj',
+26 silly mapToRegistry   name: 'node-cpf-cnpj',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/node-cpf-cnpj
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading /home/ludwig/.npm/node-cpf-cnpj/1.0.0/package.tgz
+30 verbose request uri https://registry.npmjs.org/node-cpf-cnpj
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 2:04:12 PM
+33 verbose request using bearer token for auth
+34 verbose request id bae607e2f2c6e983
+35 http request PUT https://registry.npmjs.org/node-cpf-cnpj
+36 http 403 https://registry.npmjs.org/node-cpf-cnpj
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '95',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Mon, 31 Oct 2016 16:04:13 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-gru7123-GRU',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1477929852.813972,VS0,VE793',
+37 verbose headers   vary: 'Accept-Encoding' }
+38 verbose request invalidating /home/ludwig/.npm/registry.npmjs.org/node-cpf-cnpj on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: "You cannot publish over the previously published version 1.0.0." : node-cpf-cnpj
+40 verbose stack     at makeError (/home/ludwig/n/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (/home/ludwig/n/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+40 verbose stack     at Request._callback (/home/ludwig/n/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+40 verbose stack     at Request.self.callback (/home/ludwig/n/lib/node_modules/npm/node_modules/request/request.js:200:22)
+40 verbose stack     at emitTwo (events.js:106:13)
+40 verbose stack     at Request.emit (events.js:191:7)
+40 verbose stack     at Request.<anonymous> (/home/ludwig/n/lib/node_modules/npm/node_modules/request/request.js:1067:10)
+40 verbose stack     at emitOne (events.js:101:20)
+40 verbose stack     at Request.emit (events.js:188:7)
+40 verbose stack     at IncomingMessage.<anonymous> (/home/ludwig/n/lib/node_modules/npm/node_modules/request/request.js:988:12)
+41 verbose statusCode 403
+42 verbose pkgid node-cpf-cnpj
+43 verbose cwd /home/ludwig/Project/node-cpf-cnpj
+44 error Linux 4.4.0-45-generic
+45 error argv "/home/ludwig/n/bin/node" "/home/ludwig/n/bin/npm" "publish"
+46 error node v6.4.0
+47 error npm  v3.10.3
+48 error code E403
+49 error "You cannot publish over the previously published version 1.0.0." : node-cpf-cnpj
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
