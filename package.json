@@ -1,14 +1,14 @@
 {
   "name": "node-cpf-cnpj",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Module Validate, Formate and Generate CPF and CNPJ Brazil",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RodrigoOler/node-cpf-cnpj.git"
+    "url": "git+https://github.com/RodrigoOler/node-cpf-cnpj.git",
+    "type": "git"
   },
   "keywords": [
     "cpf",
@@ -25,5 +25,13 @@
   "bugs": {
     "url": "https://github.com/RodrigoOler/node-cpf-cnpj/issues"
   },
-  "homepage": "https://github.com/RodrigoOler/node-cpf-cnpj#readme"
+  "homepage": "https://github.com/RodrigoOler/node-cpf-cnpj#readme",
+  "dependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.2",
+    "babel-eslint": "^7.1.0",
+    "babel-istanbul": "^0.11.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.18.0"
+  }
 }
