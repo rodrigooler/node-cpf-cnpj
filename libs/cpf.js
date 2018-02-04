@@ -49,13 +49,11 @@ CPF.generate = (isFormat) => {
 };
 
 CPF.isValid = (number) => {
-  if (number.length !== 14) return false;
-
   let stripped = CPF.strip(number);
+  
+  if (stripped.length !== 11) return false;
 
   if (!stripped) return false;
-
-  if (stripped.length !== 11) return false;
 
   if (IGNORELIST.indexOf(stripped) >= 0) return false;
 
